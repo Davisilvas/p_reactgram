@@ -77,8 +77,8 @@ router.put(
     "/like/:id",
     authGuard,
     likePhoto
-)
-
+    )
+    
 router.put(
     "/comment/:id",
     authGuard,
